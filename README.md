@@ -16,7 +16,7 @@ npm link
 md-to-html ./docs/guide.md ./public/guide.html --title "Guide"
 ```
 
-The generated HTML is self-contained: semantic HTML plus an embedded light docs theme.
+The generated HTML is self-contained: semantic HTML plus embedded light/dark docs themes.
 
 ## Development
 
