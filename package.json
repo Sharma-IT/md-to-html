@@ -1,0 +1,16 @@
+{
+  "name": "md-to-html",
+  "version": "0.1.0",
+  "description": "A simple markdown-to-HTML bundler with a built-in docs theme.",
+  "bin": {
+    "md-to-html": "./bin/md-to-html.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "mutation": "npx --yes --package @stryker-mutator/core@7.3.0 stryker run"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "MIT"
+}
